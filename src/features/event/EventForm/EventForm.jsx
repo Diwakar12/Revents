@@ -93,6 +93,9 @@ class EventForm extends Component {
           <Button onClick={this.props.history.goBack} type="button">Cancel</Button>
         </Form>
       </Segment>
+
+
+
     );
   }
 }
