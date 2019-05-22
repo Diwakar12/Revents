@@ -200,4 +200,4 @@ export default connect(mapState, actions)(
   reduxForm({ form: 'eventForm', enableReinitialize: true, validate })(
     EventForm
   )
-);
+ );
